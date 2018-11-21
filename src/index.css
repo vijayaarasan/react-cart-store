@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(37, 211, 255);
+}
+
+.page-container {
+    width: 800px;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+.product-listing {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.product-listing .product-list-items {
+    padding: 10px 30px;
+    width: 235px;
+}
