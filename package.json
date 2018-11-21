@@ -29,7 +29,7 @@
     "validator": "^8.1.0"
   },
   "scripts": {
-    "start": "set PORT=8080 && react-scripts start"
+    "start": "set PORT=name.herokuapp.com && react-scripts start"
   },
   "proxy": "http://localhost:8080"
 }
